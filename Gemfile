@@ -25,6 +25,9 @@ gem 'faye-websocket'
 gem 'redis'
 gem 'thin'
 
+# Exception tracking
+gem 'raygun4ruby'
+
 group :development do
   gem 'foreman'
 end
